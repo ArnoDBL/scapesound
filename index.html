@@ -3,10 +3,140 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My GitHub Pages Site</title>
+    <title>Live Audio and Lighting Technician</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #444;
+        }
+        nav a {
+            padding: 14px 20px;
+            display: block;
+            color: #fff;
+            text-decoration: none;
+            text-transform: uppercase;
+        }
+        nav a:hover {
+            background-color: #555;
+        }
+        section {
+            padding: 60px;
+            text-align: center;
+        }
+        .intro {
+            background-color: #e0e0e0;
+        }
+        .services, .portfolio {
+            background-color: #f4f4f4;
+        }
+        .contact {
+            background-color: #333;
+            color: #fff;
+        }
+        footer {
+            background-color: #444;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        h1, h2 {
+            color: #333;
+        }
+        .contact-form {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        button {
+            padding: 10px 20px;
+            background-color: #444;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #555;
+        }
+    </style>
 </head>
 <body>
-    <h1>Welcome to My Website</h1>
-    <p>This is my first GitHub Pages website!</p>
+
+<header>
+    <h1>John Doe – Live Audio & Lighting Technician</h1>
+</header>
+
+<nav>
+    <a href="#intro">About</a>
+    <a href="#services">Services</a>
+    <a href="#portfolio">Portfolio</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section id="intro" class="intro">
+    <h2>About Me</h2>
+    <p>I am a professional live audio and lighting technician with over 10 years of experience in the industry. I specialize in creating immersive live event experiences, whether it's a concert, corporate event, or theater production.</p>
+</section>
+
+<section id="services" class="services">
+    <h2>Services</h2>
+    <p>I offer a range of services to suit all live event needs, including:</p>
+    <ul>
+        <li>Live sound engineering</li>
+        <li>Lighting design and setup</li>
+        <li>Event production management</li>
+        <li>AV equipment setup and operation</li>
+        <li>On-site technical support</li>
+    </ul>
+</section>
+
+<section id="portfolio" class="portfolio">
+    <h2>Portfolio</h2>
+    <p>Here are some of the projects I've worked on:</p>
+    <ul>
+        <li>Concerts for XYZ Band</li>
+        <li>Corporate events for ABC Company</li>
+        <li>Theater productions including "The Greatest Show"</li>
+    </ul>
+</section>
+
+<section id="contact" class="contact">
+    <h2>Contact</h2>
+    <p>If you're interested in working together, please get in touch via the form below:</p>
+    <div class="contact-form">
+        <form action="mailto:your-email@example.com" method="POST" enctype="text/plain">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" rows="4" placeholder="Your Message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </div>
+</section>
+
+<footer>
+    <p>&copy; 2024 John Doe – Live Audio & Lighting Technician</p>
+</footer>
+
 </body>
 </html>
