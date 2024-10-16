@@ -13,7 +13,7 @@
             overflow-x: hidden;
         }
         .content-wrapper {
-            max-width: 800px; /* Adjust this value to control the column width */
+            max-width: 800px;
             margin: 0 auto;
             padding: 0 20px;
         }
@@ -114,6 +114,15 @@
             align-items: center;
         }
 
+        /* Updated list styling */
+        ul {
+            text-align: left;
+            padding-left: 20px;
+        }
+        li {
+            margin-bottom: 10px;
+        }
+
         /* Responsive Design */
         @media (max-width: 768px) {
             nav {
@@ -166,13 +175,15 @@
     <a href="#contact">Contact</a>
 </nav>
 
-<div class="content-wrapper">
-    <section id="intro" class="intro">
+<section id="intro" class="intro">
+    <div class="content-wrapper">
         <h2>Over mij</h2>
         <p>Ik ben een professionele live audio- en lichttechnicus met meer dan 10 jaar ervaring in de industrie. Ik specialiseer me in het creëren van meeslepende live-ervaringen, of het nu gaat om een concert, een bedrijfsbijeenkomst of een theaterproductie.</p>
-    </section>
+    </div>
+</section>
 
-    <section id="diensten" class="diensten">
+<section id="diensten" class="diensten">
+    <div class="content-wrapper">
         <h2>Diensten</h2>
         <p>Ik bied een scala aan diensten om aan alle live evenementbehoeften te voldoen, waaronder:</p>
         <ul>
@@ -182,9 +193,11 @@
             <li>Opstelling en bediening van AV-apparatuur</li>
             <li>Technische ondersteuning op locatie</li>
         </ul>
-    </section>
+    </div>
+</section>
 
-    <section id="portfolio" class="portfolio">
+<section id="portfolio" class="portfolio">
+    <div class="content-wrapper">
         <h2>Portfolio</h2>
         <p>Hier zijn enkele van de projecten waaraan ik heb gewerkt:</p>
         <ul>
@@ -192,9 +205,11 @@
             <li>Bedrijfsevenementen voor ABC Bedrijf</li>
             <li>Theaterproducties zoals "De Grote Show"</li>
         </ul>
-    </section>
+    </div>
+</section>
 
-    <section id="contact" class="contact">
+<section id="contact" class="contact">
+    <div class="content-wrapper">
         <h2>Contact</h2>
         <p>Als je geïnteresseerd bent om samen te werken, neem dan gerust contact op via het onderstaande formulier:</p>
         <div class="contact-form">
@@ -205,8 +220,8 @@
                 <button type="submit">Verstuur</button>
             </form>
         </div>
-    </section>
-</div>
+    </div>
+</section>
 
 <footer>
     <p>&copy; 2024 Jan de Vries – Live Audio & Lichttechnicus</p>
