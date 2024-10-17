@@ -232,12 +232,19 @@ Naast mijn werk als technicus, maak en mix ik ook opnames, zowel in de studio al
         <h2>Contact</h2>
         <p>Als je geïnteresseerd bent om samen te werken, neem dan gerust contact op via het onderstaande formulier:</p>
         <div class="contact-form">
-            <form action="mailto:arnoblok@gmail.com" method="POST" enctype="text/plain">
-                <input type="text" name="naam" placeholder="Je Naam" required>
-                <input type="email" name="email" placeholder="Je E-mail" required>
-                <textarea name="bericht" rows="4" placeholder="Je Bericht" required></textarea>
-                <button type="submit">Verstuur</button>
-            </form>
+            <!-- modify this form HTML and place wherever you want your form -->
+    <form action="https://formspree.io/f/xqakkwnw" method="POST">
+      <label>
+    Your email:
+    <input type="email" name="email">
+      </label>
+      <label>
+    Your message:
+    <textarea name="message"></textarea>
+      </label>
+  <!-- your other form fields go here -->
+  <button type="submit">Send</button>
+    </form>
         </div>
     </div>
 </section>
